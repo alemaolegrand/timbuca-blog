@@ -8,3 +8,14 @@ h1{
     font-size: xx-large;
 
 }
+
+.topBar{
+    padding: 50px;
+    background-color: brown;
+
+}
+
+.topBar h1{
+    color: white;
+
+}
