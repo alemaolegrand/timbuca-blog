@@ -8,38 +8,45 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
 
-    <title>Cadastrar Timbucanos</title>
+    <title>Cadastro Timbucano</title>
 
 </head>
 
 <body>
-    <div>
-        <h2>Cadastro Timbucano</h2>
+
+    <div class="titulo-post">
+        <p>Cadastro Timbucano</p>
     </div>
 
-    <div class="cadastros">
-        <div>
-            Nome:
-            <input type="text" placeholder="Digite seu nome...">
-            </input>
-        </div>
+    <div class="cadastroMain">
+        <div class="cadastros">
+            <div>
+                <p>Nome</p>
+                <input type="text" placeholder="insira seu nome..."></input>
+            </div>
+    
+            <div>
+                <p>e-mail</p>
+                <input type="text" placeholder="insira seu e-mail..."></input>
+            </div>
 
-        <div>
-            e-mail:
-            <input type="email" placeholder="Digite seu nome...">
-            </input>
-        </div>
+            <div>
+                <p>confirmar e-mail</p>
+                <input type="text" placeholder="confirme seu e-mail..."></input>
+            </div>
+    
+            <div>
+                <p>Senha</p>
+                <input type="text" placeholder="crie uma senha..."></input>
 
-        <div>
-            Senha:
-            <input type="password" placeholder="Digite uma senha">
-            </input>
-        </div>
+                <p>Confirme sua senha</p>
+                <input type="text" placeholder="confirme sua senha..."></input>
 
-        <div>
-            Confirmar senha:
-            <input type="password" placeholder="Confirme sua senha">
-            </input>
+                <button onclick="cadastrarUser()">
+                    Cadastrar
+                </button>
+            </div>
         </div>
     </div>
+
 </body>

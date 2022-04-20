@@ -18,28 +18,34 @@
         <p>Criar post Timbucano</p>
     </div>
 
-    <div class="cadastros">
-        <div>
-            <h1>Titulo</h1>
-            <input type="text" placeholder="insira o titulo da postagem..."></input>
-        </div>
+    <div class="cadastroMain">
+        <div class="cadastros">
+            <div>
+                <p>Titulo</p>
+                <input type="text" placeholder="insira o titulo da postagem..."></input>
+            </div>
+    
+            <div>
+                <p>Subtitulo</p>
+                <input type="text" placeholder="insira um subtitulo"></input>
+            </div>
+    
+            <div>
+                <p>Adicionar imagem</p>
+                <input type="text" placeholder="Url da imagem..."></input>
+                <input type="file" id="fotoDestaque" name="filename">
+            </div>
+    
+            <div>
+                <p>Postagem</p>
+                <textarea type="text" placeholder="digite seu texto"></textarea>
+                
+                </input>
 
-        <div>
-            <h2>Subtitulo</h2>
-            <input type="text" placeholder="insira o subtitulo"></input>
-        </div>
-
-        <div>
-            <p>Adicionar imagem</p>
-            <input type="text" placeholder="url da imagem..."></input>
-            <input type="file" id="myFile" name="filename">
-        </div>
-
-        <div>
-            <p>Postagem</p>
-            <textarea type="text" placeholder="digite seu texto"></textarea>
-            
-            </input>
+                <button onclick="criarPost()">
+                    Postar
+                </button>
+            </div>
         </div>
     </div>
 
